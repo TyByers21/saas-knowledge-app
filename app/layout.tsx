@@ -37,13 +37,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <ClerkProvider>
+    <ClerkProvider appearance={{ variables: { colorPrimary: "#fe5933" }}}>
       <html lang="en">
         <body className={`${bricolage.variable} ${geistSans.variable} ${geistMono.variable} antialiased`}>
           <header className="flex justify-end items-center p-4 gap-4 h-16">
             <SignedOut>
-              <SignInButton />
-              <SignUpButton />
+              <SignInButton>
+                <button className="btn-primary">Sign In</button>
+              </SignInButton>
             </SignedOut>
             <SignedIn>
               <UserButton />

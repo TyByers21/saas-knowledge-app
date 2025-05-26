@@ -14,6 +14,7 @@ import {
     SelectTrigger,
     SelectValue,
 } from "@/components/ui/select"
+import {createCompanion} from "../lib/actions/companion.actions";
 
 import {
     Form,
