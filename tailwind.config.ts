@@ -9,6 +9,10 @@ export default {
   ],
   theme: {
   	extend: {
+		screens: {
+			// Add custom breakpoint
+			'lg-min': '410px', // Now you can use lg-min:max-w-[410px]
+		},
   		colors: {
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
@@ -54,7 +58,8 @@ export default {
   		borderRadius: {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
-  			sm: 'calc(var(--radius) - 4px)'
+  			sm: 'calc(var(--radius) - 4px)',
+			'4xl': 'var(--radius-4xl)' // New entry [5]
   		}
   	}
   },
