@@ -1,0 +1,12 @@
+(node:24252) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+npm ERR! Windows_NT 10.0.26100
+npm ERR! argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\tyron\\Desktop\\arcane_saas_app\\node_modules\\npm\\bin\\npm-cli.js" "install" "@sentry/nextjs@latest"
+npm ERR! node v22.13.1
+npm ERR! npm  v2.15.12
+npm ERR! code EPEERINVALID
+
+npm ERR! peerinvalid The package picomatch@2.3.1 does not satisfy its siblings' peerDependencies requirements!
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     C:\Users\tyron\Desktop\arcane_saas_app\npm-debug.log
